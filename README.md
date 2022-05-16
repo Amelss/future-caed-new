@@ -2,7 +2,7 @@
 - A one pager website created as a small project to practice Bootstrap and use Netlify forms
 
 ## Tech Stack
--HTML
+- HTML
 - Bootstrap CSS
 - Bootstrap Icons
 - CSS
