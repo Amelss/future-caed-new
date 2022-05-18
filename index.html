@@ -89,29 +89,32 @@
             <div class="row my-5 align-items-center justify-content-center">
                 <div class="col-8 col-lg-4">
                     <div class="card border-0 position-relative">
-                        <div class="card-body">
-                            <img src="/assets/self-suff-text.png" alt="" class="w-100 position-absolute self-suff close-self-suff d-none">
-                            <img src="/assets/self-suff.png" alt="self-sufficiency" class="w-100 self-pic">
+                        <div class="card-body position-relative">
                             
+                            <img src="/assets/1.png" alt="" class="w-100 position-absolute top-0 self-suff close-self-suff d-none mt-0">
+                            <img src="/assets/self-suff.png" alt="self-sufficiency" class="w-100 self-pic ">
                         </div>
+                        <h4 class="card-text text-center py-3 my-3">Self Sufficiency</h4>
                     </div>
                 </div>
 
                 <div class="col-8 col-lg-4">
                     <div class="card border-0">
                         <div class="card-body">
-                            <img src="/assets/sustainability-text.png" alt="" class="w-100 position-absolute d-none close-sustainability sustainability">
-                            <img src="/assets/sustainability.png" alt="sustainability" class="w-100">
+                            <img src="/assets/3.png" alt="" class="w-100 position-absolute top-0 d-none close-sustainability sustainability ">
+                            <img src="/assets/sustainability.png" alt="sustainability" class="w-100 sus-pic">
                         </div>
+                        <h4 class="card-text text-center py-3 my-3">Sustainability</h4>
                     </div>
                 </div>
 
                 <div class="col-8 col-lg-4">
                     <div class="card border-0">
                         <div class="card-body">
-                            <!-- <img src="/assets/generation-text.png" alt="" class="w-100 position-absolute generation"> -->
-                            <img src="/assets/generation.png" alt="generational wealth" class="w-100">
+                            <img src="/assets/2.png" alt="" class="w-100 position-absolute top-0 d-none generation close-generation  ">
+                            <img src="/assets/generation.png" alt="generational wealth" class="w-100 gen-pic">
                         </div>
+                        <h4 class="card-text text-center py-3 my-3">Generational Wealth</h4>
                     </div>
                 </div>
             </div>
@@ -292,6 +295,7 @@
 
     </section>
 
+    
 
 
     <!----- CONTACT US ------>
@@ -346,6 +350,47 @@
 
 
     </section>
+
+
+    <!-----UPDATES -->
+    <section>
+        <div class="container">
+            <div class="text-center">
+                <h2>Stay Updated</h2>
+                <p class="lead text-muted">Sign up to out mailing list to get updates about Future CaED.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus pariatur, sapiente totam itaque fuga voluptatum provident labore est voluptates quasi!</p>
+                    <button class="btn btn-primary text-white" data-bs-target="#reg-modal" data-bs-toggle="modal">Sign Up Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--modal-->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="model-title text-center">Sign up for Future CaED updates.</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <form name="updates" method="POST" data-netlify="true" >
+                        
+                         <input type="text" name="name" placeholder="Name" class="form-control mb-3"/>
+                   
+                         <input type="email" name="email" placeholder="Email" class="form-control mb-3" />
+                    
+                         <button class="btn btn-primary text-white w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!----- FOOTER ------>
 
     <footer class="bg-primary">
